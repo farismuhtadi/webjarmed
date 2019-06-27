@@ -1,0 +1,56 @@
+<html>
+
+<head>
+   <meta charset="utf-8">
+
+      <title>Berita Satu TV</title>
+   
+   <!-- optimize mobile versions -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+      <!-- Flowplayer skin -->
+   <link rel="stylesheet" href="//releases.flowplayer.org/7.2.5/skin/skin.css">
+   
+   <!-- Minimal styling for this standalone page, can be removed -->
+   <link rel="stylesheet" href="//demos.flowplayer.com/media/css/demo.css">
+   <!-- Syntax highlighting of source code, can be removed -->
+   <link rel="stylesheet" href="//demos.flowplayer.com/media/css/pygments.css">
+   
+<style>
+.flowplayer {
+  background-color: #00abcd;
+}
+.flowplayer .fp-color-play {
+  fill: #eee;
+}
+</style>
+
+      <!-- Flowplayer depends on jquery 1.7.2+ for video tag based installations -->
+   <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+         <!-- hls.js for playback of HLS without Flash in modern browsers -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/0.8.9/hls.light.min.js"></script>
+
+         <!-- Flowplayer library -->
+   <script src="//releases.flowplayer.org/7.2.5/flowplayer.min.js"></script>
+               
+   
+
+</head>
+
+<body>
+
+   <div id="content">
+
+      <h1>Berita Satu TV</h1>
+
+<div data-live="true" data-ratio="0.625" data-share="false" class="flowplayer">
+
+   <video data-title="Live stream">
+<source type="application/x-mpegurl"
+        src="http://edge.linknetott.swiftserve.com/live/BsNew/amlst:beritasatunewsbs/playlist.m3u8">
+   </video>
+
+</div>
+</body>
+
